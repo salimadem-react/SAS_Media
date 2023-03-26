@@ -19,7 +19,7 @@ export default function Navbar() {
       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
         <img src={require("../utils/logo1.png")} alt="logo" height={45} />
       </Link>
-      <SearchBar></SearchBar>
+      <SearchBar />
     </Stack>
   );
 }
